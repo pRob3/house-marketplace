@@ -37,7 +37,7 @@ function Profile() {
         name,
       })
 
-      toast.success('Could not update profile details')
+      toast.success('Profile has been saved')
     } catch (error) {
       toast.error('Could not update profile details')
     }
